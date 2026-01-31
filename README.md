@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Tech Job Market Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application built with React, Vite, and Tailwind CSS to analyze and track tech job market trends.
 
-## Available Scripts
+## 🚀 Tech Stack
 
-In the project directory, you can run:
+- **Frontend Framework:** React 19
+- **Build Tool:** Vite 7
+- **Styling:** Tailwind CSS 3
+- **Language:** JavaScript (ES6+)
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+tech-job-market-analyzer/
+├── client/                 # React application
+│   ├── src/               # Source files
+│   │   ├── assets/        # Images, icons, and static files
+│   │   ├── App.jsx        # Main app component
+│   │   └── main.jsx       # Application entry point
+│   ├── tailwind.config.js # Tailwind configuration
+│   ├── vite.config.js     # Vite configuration
+│   └── package.json       # Dependencies and scripts
+└── README.md              # Project documentation
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation & Setup
 
-### `npm test`
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started
 
-### `npm run build`
+1. Clone the repository:
+```bash
+git clone https://github.com/prashantsingh428/Tech-Job-Market-Analyzer.git
+cd Tech-Job-Market-Analyzer
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the client directory:
+```bash
+cd client
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
+```bash
+npm run dev
+```
 
-### `npm run eject`
+The application will open in your default browser at `http://localhost:5173/`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📜 Available Scripts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In the `client` directory, you can run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **`npm run dev`** - Runs the app in development mode with hot reload
+- **`npm run build`** - Builds the app for production
+- **`npm run preview`** - Preview the production build locally
+- **`npm run lint`** - Run ESLint to check code quality
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Features
 
-## Learn More
+- Modern, responsive UI built with Tailwind CSS
+- Fast development experience with Vite's HMR (Hot Module Replacement)
+- Optimized production builds
+- Job market data analysis and visualization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The project is configured to:
+- Open in Brave browser by default (configurable in `vite.config.js`)
+- Use Tailwind CSS for styling
+- Support ES modules and modern JavaScript features
 
-### Code Splitting
+## 📝 Development Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Make changes to your code
+2. Save the file (changes will auto-reload in the browser)
+3. Commit your changes:
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to fork this project and submit pull requests for any improvements.
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is open source and available under the MIT License.
 
-### Advanced Configuration
+## 👤 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Prashant Singh**
+- GitHub: [@prashantsingh428](https://github.com/prashantsingh428)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ using React, Vite, and Tailwind CSS
